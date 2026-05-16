@@ -1,0 +1,104 @@
+{
+  "sequence_length": 50,
+  "sequence_step": 10,
+  "features": [
+    "flex_thumb",
+    "flex_index",
+    "flex_middle",
+    "flex_ring",
+    "flex_little",
+    "accX",
+    "accY",
+    "accZ",
+    "gyroX",
+    "gyroY",
+    "gyroZ"
+  ],
+  "classes": [
+    "apple",
+    "belly",
+    "date",
+    "doctor",
+    "dog",
+    "glory",
+    "job",
+    "meat",
+    "mother",
+    "mute",
+    "no_gesture",
+    "phone",
+    "ukr",
+    "univ",
+    "wave"
+  ],
+  "column_aliases": {
+    "timestamp": [
+      "timestamp",
+      "t_ms",
+      "time",
+      "ts"
+    ],
+    "flex_thumb": [
+      "flex_thumb",
+      "flex1",
+      "thumb"
+    ],
+    "flex_index": [
+      "flex_index",
+      "flex2",
+      "index"
+    ],
+    "flex_middle": [
+      "flex_middle",
+      "flex3",
+      "middle"
+    ],
+    "flex_ring": [
+      "flex_ring",
+      "flex4",
+      "ring"
+    ],
+    "flex_little": [
+      "flex_little",
+      "flex5",
+      "little",
+      "pinky"
+    ],
+    "accX": [
+      "accX",
+      "ax",
+      "accx"
+    ],
+    "accY": [
+      "accY",
+      "ay",
+      "accy"
+    ],
+    "accZ": [
+      "accZ",
+      "az",
+      "accz"
+    ],
+    "gyroX": [
+      "gyroX",
+      "gx",
+      "gyrox"
+    ],
+    "gyroY": [
+      "gyroY",
+      "gy",
+      "gyroy"
+    ],
+    "gyroZ": [
+      "gyroZ",
+      "gz",
+      "gyroz"
+    ],
+    "label": [
+      "label",
+      "gesture",
+      "class",
+      "word"
+    ]
+  }
+}
